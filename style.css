@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: "Norse-Bold";
+    src: url(./Norse-Bold.otf);
+}
+
+.content{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+
+.logo{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+.left{
+    background-image: url(./images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40vw;
+}
+
+.logo{
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 20vh;
+    gap: 1vw;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-odin{
+    color: white;
+    font-size: 5rem;
+    font-family: "Norse-Bold";
+
+}
+.odin{
+    height: 20vh;
+}
+
+.credit{
+    color: white;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+.right{
+    background-color: rgb(249,250,251);
+    width: 100vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  
+}
+
+.card{
+    background-color: white;
+}
+
+.dummy-text{
+    font-weight: bold;
+    width: 90%;
+    font-size: 1.3rem;
+    margin-left: 1em;
+}
+
+.remote-text{
+    margin-bottom: 1vw;
+}
+.form-title{
+    margin-left: 1em;
+}
+form{
+    margin-left: 2em;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.input{
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    text-transform: uppercase;
+    
+}
+
+.input > label{
+    font-weight: bold;
+}
+input{
+    border: 1px solid #E5E7EB;
+    border-radius: 3%;
+    height: 2.5em;
+    font-size: 1em;
+    padding-left: 0.5em;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid skyblue;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.342);
+}
+
+input:invalid{
+    outline: none;
+    border: 2px solid red;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.342);
+}
+
+.footer{
+    margin-left: 2em;
+}
+
+button{
+    background-color: #596D48;
+    color: white;
+    font-size: 1.2em;
+    border: 1px none;
+    border-radius: 4%;
+    padding: 10px 50px;
+    margin-top : 1em;
+    margin-bottom: 1em;
+}
+
+a{
+    color: #596D48;
+    text-decoration: none;
+}
